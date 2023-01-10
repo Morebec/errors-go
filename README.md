@@ -1,4 +1,6 @@
 # errors-go
+[![Go](https://github.com/Morebec/errors-go/actions/workflows/go.yml/badge.svg?branch=main)](https://github.com/Morebec/errors-go/actions/workflows/go.yml)
+
 This package is a thin wrapper around the Go standard library's errors 
 package that provides additional functions for defining and manipulating errors. It is designed to be compatible with 
 the standard library's errors package, but also provides additional features such as the ability to define custom error 
