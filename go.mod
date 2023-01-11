@@ -1,4 +1,4 @@
-module github.com/morebec/errors-go
+module github.com/morebec/go-errors
 
 go 1.18
 

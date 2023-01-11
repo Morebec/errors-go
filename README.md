@@ -1,5 +1,5 @@
-# errors-go
-[![Go](https://github.com/Morebec/errors-go/actions/workflows/go.yml/badge.svg?branch=main)](https://github.com/Morebec/errors-go/actions/workflows/go.yml)
+# go-errors
+[![Go](https://github.com/Morebec/go-errors/actions/workflows/go.yml/badge.svg?branch=main)](https://github.com/Morebec/go-errors/actions/workflows/go.yml)
 
 This package is a thin wrapper around the Go standard library's errors 
 package that provides additional functions for defining and manipulating errors. It is designed to be compatible with 
@@ -12,7 +12,7 @@ codes (for translation or representation in UIs) and the ability to wrap multipl
 - Retrieve the cause of an error with the `Unwrap` method.
 
 ## Getting Started
-To get started with the `errors-go` package, you can install it with the following command:
+To get started with the `go-errors` package, you can install it with the following command:
 
 ```bash
 go get github.com/your-username/errors
@@ -32,7 +32,7 @@ if err != nil {
 
 ### Handling an error with a specific error code
 ```go
-import "github.com/morebec/errors-go/errors"
+import "github.com/morebec/go-errors/errors"
 
 func doSomething() error {
 	// Return a new error with the "invalid_input" code.
@@ -54,8 +54,8 @@ func main() {
 
 
 ### Contributions
-We welcome contributions to the `errors-go` package! If you have an idea for a new feature or have found a bug, 
+We welcome contributions to the `go-errors` package! If you have an idea for a new feature or have found a bug, 
 please open an issue to discuss it. If you'd like to contribute code, please open a pull request with your changes.
 
 License
-The `errors-go` package is licensed under the MIT License.
+The `go-errors` package is licensed under the MIT License.
