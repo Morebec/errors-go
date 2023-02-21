@@ -24,7 +24,7 @@ Here are a few examples, for more examples please consult the `errors_test.go` f
 ```go
 _, err := os.ReadFile(f)
 if err != nil {
-	return errors.Wrap(err, "reading_failure", "there was an error reading the file")
+	return errors.WrapWithMessage(err, "reading_failure", "there was an error reading the file")
 }
 ```
 
