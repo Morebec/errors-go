@@ -15,7 +15,7 @@ codes (for translation or representation in UIs) and the ability to wrap multipl
 To get started with the `go-errors` package, you can install it with the following command:
 
 ```bash
-go get github.com/your-username/errors
+go get github.com/morebec/go-errors
 ```
 
 ## Examples 
